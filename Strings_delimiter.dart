@@ -13,4 +13,17 @@ main() {
   var s5 = r'with raw even \n is not excluded';
 
   print(s5);
+// string interpolation
+  int num1 = 234234;
+  print('interpolation $num1');
+
+  // multiline
+  var str1 = ''' Cool man 
+  very cool ''';
+
+  var str2 = """ This is cool too
+  yes it's cool""";
+
+  print(str1);
+  print(str2);
 }
